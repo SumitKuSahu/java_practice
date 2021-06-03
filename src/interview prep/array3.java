@@ -1,6 +1,6 @@
 //find common element in 3 sorted array
 //O(n) approach
-//if we take old methof of 3 loops it will take O(n^3)
+//if we take old method of 3 loops it will take O(n^3)
 
 class array3{
     public static void commonElements(int a[],int b[],int c[]){
