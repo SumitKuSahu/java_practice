@@ -16,10 +16,7 @@ n=n-1;
 * */
 
 class power{
-    public static void main(String[] args) {
-        double m=findPower(3.0,2);
-        System.out.println(m);
-    }
+
     static double findPower(double x,int n){
         long num=n;
         double ans=1.0;
@@ -32,12 +29,15 @@ class power{
                 num=num/2;
             }else{
                ans=ans*x;
-               n=n-1;
+               num=num-1;
             }
         }
         if(n<0){
-            return (double)1.0/(double) ans;
+            return 1.0/ans;
         }
         return ans;
+    }
+    public static void main(String[] args) {
+        System.out.println( findPower(3.0,-2));
     }
 }

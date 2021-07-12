@@ -5,6 +5,7 @@
 5!=1x2x3x4x5=1x2x3x2x2x5
 2x5=1 time
 we can cout nt no. of 5 to know trailing 0
+o log n
 
 * */
 
